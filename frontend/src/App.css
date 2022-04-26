@@ -1,0 +1,45 @@
+body {
+  background-color: #ababab;
+}
+
+.disp {
+  background-color: #e7e7e7;
+  padding-top: 5vh;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.disp::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.crd {
+  height: 20vh;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem !important;
+  background-color: rgb(164, 177, 104);
+}
+
+.cl-1 {
+  padding-left: 2rem;
+  font-weight: bolder;
+}
+
+.cp-ec2 {
+  margin-top: 12rem;
+}
+
+.cl-2 {
+  margin-top: 0.4rem;
+}
+
+.btn-ec2 {
+  -webkit-box-shadow: 0px 0px 24px 6px #fff;
+  box-shadow: 0px 0px 24px 6px #fff;
+}
+
+.btn-ec2:hover {
+  -webkit-box-shadow: 0px 0px 24px 6px #b8fffa;
+  box-shadow: 0px 0px 24px 6px #b8fffa;
+}
